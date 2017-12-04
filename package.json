@@ -1,0 +1,31 @@
+{
+  "name": "webpacker-5_2",
+  "private": true,
+  "dependencies": {
+    "@angular/common": "^5.0.5",
+    "@angular/compiler": "^5.0.5",
+    "@angular/core": "^5.0.5",
+    "@angular/platform-browser": "^5.0.5",
+    "@angular/platform-browser-dynamic": "^5.0.5",
+    "@rails/webpacker": "rails/webpacker",
+    "babel-preset-react": "^6.24.1",
+    "coffeescript": "1.12.7",
+    "core-js": "^2.5.1",
+    "elm": "^0.18.0",
+    "elm-webpack-loader": "^4.4.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "rxjs": "^5.5.3",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "vue": "^2.5.9",
+    "vue-loader": "^13.5.0",
+    "vue-template-compiler": "^2.5.9",
+    "zone.js": "^0.8.18"
+  },
+  "devDependencies": {
+    "elm-hot-loader": "^0.5.4",
+    "webpack-dev-server": "^2.9.5"
+  }
+}
