@@ -50,10 +50,6 @@ development:
     quiet: false
     headers:
       'Access-Control-Allow-Origin': '*'
-      'Content-Security-Policy': "script-src 'self'; connect-src 'self' ws://localhost:3035 http://localhost:3035"
-      'X-Content-Security-Policy': "script-src 'self'; connect-src 'self' ws://localhost:3035 http://localhost:3035"
-      'X-WebKit-CSP': "script-src 'self'; connect-src 'self' ws://localhost:3035 http://localhost:3035"
-
     watch_options:
       ignored: /node_modules/
 
