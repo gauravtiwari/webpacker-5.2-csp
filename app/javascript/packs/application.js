@@ -8,3 +8,15 @@
 // layout file, like app/views/layouts/application.html.erb
 
 console.log('Hello World from Webpacker')
+
+import React from 'react'
+import { render } from 'react-dom'
+
+document.addEventListener('DOMContentLoaded', () => {
+  import(/* webpackChunkName: "counter" */ '../counter').then(({ default: Counter }) => {
+    render(
+      <Counter />,
+      document.getElementById('counter')
+    )
+  })
+})
