@@ -7,7 +7,7 @@
     "@angular/core": "^5.0.5",
     "@angular/platform-browser": "^5.0.5",
     "@angular/platform-browser-dynamic": "^5.0.5",
-    "@rails/webpacker": "rails/webpacker",
+    "@rails/webpacker": "^4.0.7",
     "babel-preset-react": "^6.24.1",
     "coffeescript": "1.12.7",
     "core-js": "^2.5.1",
@@ -26,6 +26,6 @@
   },
   "devDependencies": {
     "elm-hot-loader": "^0.5.4",
-    "webpack-dev-server": "^2.9.5"
+    "webpack-dev-server": "^3.7.2"
   }
 }
